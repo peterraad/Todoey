@@ -7,7 +7,8 @@
 //
 
 import Foundation
-class Item {
+//STEP 5
+class Item: Codable {
     
     var title : String = ""
     var isDone : Bool = false
